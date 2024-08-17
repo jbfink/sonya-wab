@@ -1,0 +1,120 @@
+{
+  "layerInfos": [
+    {
+      "name": "PPO_nwr_points_Feature_Merge1",
+      "id": "19901a508624494593f25caba4797483",
+      "layer": {
+        "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/PPO_Merged_WFL1/FeatureServer/11",
+        "fields": [
+          {
+            "show": true,
+            "name": "OBJECTID",
+            "alias": "OBJECTID"
+          },
+          {
+            "show": true,
+            "name": "name",
+            "alias": "name"
+          },
+          {
+            "show": true,
+            "name": "operator",
+            "alias": "operator"
+          },
+          {
+            "show": true,
+            "name": "plant_meth",
+            "alias": "plant_meth"
+          },
+          {
+            "show": true,
+            "name": "plant_outp",
+            "alias": "plant_outp"
+          },
+          {
+            "show": true,
+            "name": "plant_sour",
+            "alias": "plant_sour"
+          },
+          {
+            "show": true,
+            "name": "power",
+            "alias": "power"
+          },
+          {
+            "show": true,
+            "name": "addr_city",
+            "alias": "addr_city"
+          },
+          {
+            "show": false,
+            "name": "addr_house",
+            "alias": "addr_house"
+          },
+          {
+            "show": false,
+            "name": "addr_stree",
+            "alias": "addr_stree"
+          },
+          {
+            "show": true,
+            "name": "landuse",
+            "alias": "landuse"
+          },
+          {
+            "show": true,
+            "name": "start_date",
+            "alias": "start_date"
+          },
+          {
+            "show": true,
+            "name": "website",
+            "alias": "website"
+          },
+          {
+            "show": true,
+            "name": "is_in",
+            "alias": "is_in"
+          },
+          {
+            "show": true,
+            "name": "addr_provi",
+            "alias": "addr_provi"
+          },
+          {
+            "show": false,
+            "name": "wikidata",
+            "alias": "wikidata"
+          },
+          {
+            "show": false,
+            "name": "wikipedia",
+            "alias": "wikipedia"
+          },
+          {
+            "show": true,
+            "name": "output_MW",
+            "alias": "output_MW"
+          }
+        ]
+      },
+      "show": true,
+      "showAttachments": false,
+      "sortField": "OBJECTID",
+      "isDescending": false
+    }
+  ],
+  "table": {
+    "pageSizeOptions": [
+      25,
+      50,
+      100,
+      1000
+    ]
+  },
+  "hideExportButton": false,
+  "initiallyExpand": false,
+  "filterByMapExtent": true,
+  "allowTextSelection": true,
+  "syncWithLayers": false
+}

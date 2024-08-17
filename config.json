@@ -1,0 +1,601 @@
+{
+  "theme": {
+    "name": "FoldableTheme",
+    "styles": [
+      "cyan",
+      "purple",
+      "default",
+      "red",
+      "yellow",
+      "green",
+      "black",
+      "blue"
+    ],
+    "version": "2.30",
+    "sharedTheme": {
+      "isPortalSupport": true,
+      "useHeader": false,
+      "useLogo": false
+    }
+  },
+  "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
+  "appId": "",
+  "authorizedCrossOriginDomains": [],
+  "title": "Ontario Power Plant Generation by Source",
+  "subtitle": "with ArcGIS Web AppBuilder",
+  "keepAppState": true,
+  "logo": "images/logo.jpeg",
+  "geometryService": "https://utility.arcgisonline.com/arcgis/rest/services/Geometry/GeometryServer",
+  "links": [
+    {
+      "label": "Current Generation vs. Demand",
+      "url": "https://live.gridwatch.ca/generation-demand.html"
+    },
+    {
+      "label": "Ontario Energy Profile",
+      "url": "https://www.cer-rec.gc.ca/en/data-analysis/energy-markets/provincial-territorial-energy-profiles/provincial-territorial-energy-profiles-ontario.html"
+    }
+  ],
+  "widgetOnScreen": {
+    "widgets": [
+      {
+        "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+        "position": {
+          "left": 0,
+          "top": 0,
+          "right": 0,
+          "height": 40,
+          "relativeTo": "browser"
+        },
+        "version": "2.30",
+        "id": "themes_FoldableTheme_widgets_HeaderController_Widget_1",
+        "name": "HeaderController"
+      },
+      {
+        "uri": "widgets/Scalebar/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 25,
+          "relativeTo": "map"
+        },
+        "version": "2.30",
+        "id": "widgets_Scalebar_Widget_2",
+        "name": "Scalebar"
+      },
+      {
+        "uri": "widgets/Search/Widget",
+        "position": {
+          "left": 55,
+          "top": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.30",
+        "id": "widgets_Search_Widget_3",
+        "name": "Search"
+      },
+      {
+        "uri": "widgets/Coordinate/Widget",
+        "position": {
+          "left": 7,
+          "bottom": 5,
+          "relativeTo": "map"
+        },
+        "version": "2.30",
+        "id": "widgets_Coordinate_Widget_4",
+        "name": "Coordinate"
+      },
+      {
+        "position": {
+          "left": 55,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_5",
+        "name": "Chart",
+        "version": "2.30",
+        "closeable": true,
+        "uri": "widgets/Chart/Widget",
+        "config": "configs/Chart/config__5.json"
+      },
+      {
+        "position": {
+          "left": 105,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_7",
+        "name": "InfoSummary",
+        "version": "2.30",
+        "closeable": true,
+        "IsController": false,
+        "uri": "widgets/InfoSummary/Widget",
+        "config": "configs/InfoSummary/config__7.json",
+        "label": "Number of Plants by Source"
+      },
+      {
+        "position": {
+          "left": 155,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_8",
+        "name": "Summary",
+        "version": "2.30",
+        "closeable": true,
+        "uri": "widgets/Summary/Widget",
+        "config": "configs/Summary/config__8.json"
+      },
+      {
+        "position": {
+          "left": 205,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "placeholderIndex": 1,
+        "id": "_9",
+        "version": "2.17",
+        "closeable": true,
+        "uri": "widgets/PopupPanel/Widget",
+        "name": "PopupPanel",
+        "config": "configs/PopupPanel/config__9.json"
+      },
+      {
+        "uri": "widgets/OverviewMap/Widget",
+        "position": {
+          "left": 255,
+          "top": 45,
+          "relativeTo": "map"
+        },
+        "version": "2.30",
+        "id": "widgets_OverviewMap_Widget_10",
+        "name": "OverviewMap"
+      },
+      {
+        "uri": "widgets/HomeButton/Widget",
+        "position": {
+          "right": 0,
+          "bottom": 0,
+          "zIndex": 1,
+          "relativeTo": "map"
+        },
+        "version": "2.30",
+        "id": "widgets_HomeButton_Widget_11",
+        "name": "HomeButton"
+      },
+      {
+        "uri": "widgets/MyLocation/Widget",
+        "position": {
+          "left": 7,
+          "top": 75,
+          "relativeTo": "map"
+        },
+        "version": "2.30",
+        "id": "widgets_MyLocation_Widget_12",
+        "name": "MyLocation"
+      },
+      {
+        "uri": "widgets/AttributeTable/Widget",
+        "position": {
+          "left": 7,
+          "top": 110,
+          "relativeTo": "map"
+        },
+        "version": "2.30",
+        "id": "widgets_AttributeTable_Widget_13",
+        "name": "AttributeTable",
+        "config": "configs/AttributeTable/config_widgets_AttributeTable_Widget_13.json"
+      },
+      {
+        "uri": "widgets/Splash/Widget",
+        "visible": false,
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.30",
+        "id": "widgets_Splash_Widget_14",
+        "name": "Splash"
+      },
+      {
+        "uri": "widgets/ZoomSlider/Widget",
+        "position": {
+          "relativeTo": "browser"
+        },
+        "version": "2.30",
+        "id": "widgets_ZoomSlider_Widget_15",
+        "name": "ZoomSlider"
+      },
+      {
+        "uri": "widgets/ExtentNavigate/Widget",
+        "visible": false,
+        "position": {
+          "top": 5,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "id": "widgets_ExtentNavigate_Widget_16",
+        "name": "ExtentNavigate",
+        "version": "2.30"
+      },
+      {
+        "uri": "widgets/FullScreen/Widget",
+        "visible": false,
+        "position": {
+          "top": 190,
+          "left": 7,
+          "relativeTo": "map"
+        },
+        "version": "2.30",
+        "id": "widgets_FullScreen_Widget_17",
+        "name": "FullScreen"
+      }
+    ],
+    "panel": {
+      "uri": "jimu/OnScreenWidgetPanel",
+      "position": {
+        "relativeTo": "map"
+      }
+    }
+  },
+  "map": {
+    "3D": false,
+    "2D": true,
+    "position": {
+      "left": 0,
+      "top": 40,
+      "right": 0,
+      "bottom": 0
+    },
+    "itemId": "3208ee88140d4c0294519c7d7bb9eccc",
+    "mapOptions": {
+      "extent": {
+        "xmin": -10689267.682578584,
+        "ymin": 5002316.888565453,
+        "xmax": -8042712.0152333435,
+        "ymax": 7093633.982447319,
+        "spatialReference": {
+          "wkid": 102100
+        }
+      }
+    },
+    "id": "map",
+    "portalUrl": "https://mohawkarcgis.maps.arcgis.com",
+    "mapRefreshInterval": {
+      "useWebMapRefreshInterval": true
+    }
+  },
+  "widgetPool": {
+    "panel": {
+      "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+      "position": {
+        "top": 5,
+        "right": 5,
+        "bottom": 5,
+        "zIndex": 5,
+        "relativeTo": "map"
+      }
+    },
+    "widgets": [
+      {
+        "uri": "widgets/Legend/Widget",
+        "version": "2.30",
+        "id": "widgets_Legend_Widget_18",
+        "name": "Legend",
+        "index": 2
+      },
+      {
+        "uri": "widgets/LayerList/Widget",
+        "version": "2.30",
+        "id": "widgets_LayerList_Widget_19",
+        "name": "LayerList",
+        "index": 3
+      },
+      {
+        "name": "Search",
+        "label": "Search_2",
+        "version": "2.30",
+        "uri": "widgets/Search/Widget",
+        "index": 4,
+        "id": "widgets_Search_Widget_22",
+        "position": {
+          "relativeTo": "map"
+        }
+      },
+      {
+        "name": "BasemapGallery",
+        "version": "2.30",
+        "uri": "widgets/BasemapGallery/Widget",
+        "config": "configs/BasemapGallery/config_widgets_BasemapGallery_Widget_23.json",
+        "index": 5,
+        "id": "widgets_BasemapGallery_Widget_23"
+      },
+      {
+        "name": "Analysis",
+        "version": "2.30",
+        "uri": "widgets/Analysis/Widget",
+        "config": "configs/Analysis/config_widgets_Analysis_Widget_24.json",
+        "index": 6,
+        "id": "widgets_Analysis_Widget_24"
+      },
+      {
+        "name": "Query",
+        "version": "2.30",
+        "uri": "widgets/Query/Widget",
+        "config": "configs/Query/config_widgets_Query_Widget_25.json",
+        "index": 8,
+        "id": "widgets_Query_Widget_25"
+      }
+    ],
+    "groups": []
+  },
+  "mobileLayout": {
+    "widgetOnScreen": {
+      "widgets": [
+        {
+          "uri": "themes/FoldableTheme/widgets/HeaderController/Widget",
+          "position": {
+            "left": 0,
+            "top": 0,
+            "right": 0,
+            "height": 40,
+            "relativeTo": "browser"
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/Scalebar/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 40,
+            "relativeTo": "map"
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/Search/Widget",
+          "position": {
+            "left": 55,
+            "top": 5
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/Coordinate/Widget",
+          "position": {
+            "left": 7,
+            "bottom": 17,
+            "relativeTo": "map"
+          },
+          "version": "2.30"
+        },
+        {
+          "position": {
+            "left": 55,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 105,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 155,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 205,
+            "top": 45
+          }
+        },
+        {
+          "position": {
+            "left": 255,
+            "top": 45
+          }
+        },
+        {
+          "uri": "widgets/OverviewMap/Widget",
+          "position": {
+            "right": 0,
+            "bottom": 0,
+            "zIndex": 1
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/HomeButton/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 75
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/MyLocation/Widget",
+          "inPanel": false,
+          "position": {
+            "left": 7,
+            "top": 110
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/AttributeTable/Widget",
+          "version": "2.30",
+          "position": {
+            "relativeTo": "browser"
+          }
+        },
+        {
+          "uri": "widgets/Splash/Widget",
+          "visible": false,
+          "position": {
+            "relativeTo": "browser"
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/ZoomSlider/Widget",
+          "visible": true,
+          "position": {
+            "top": 5,
+            "left": 7
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/ExtentNavigate/Widget",
+          "visible": false,
+          "position": {
+            "top": 190,
+            "left": 7
+          },
+          "version": "2.30"
+        },
+        {
+          "uri": "widgets/FullScreen/Widget",
+          "visible": false,
+          "position": {
+            "top": 150,
+            "left": 7
+          },
+          "version": "2.30"
+        }
+      ]
+    },
+    "map": {
+      "position": {
+        "left": 0,
+        "top": 40,
+        "right": 0,
+        "bottom": 0
+      }
+    },
+    "widgetPool": {
+      "panel": {
+        "uri": "themes/FoldableTheme/panels/FoldablePanel/Panel",
+        "position": {
+          "top": 5,
+          "right": 5,
+          "bottom": 5,
+          "zIndex": 5
+        }
+      }
+    }
+  },
+  "loadingPage": {
+    "backgroundColor": "#508dca",
+    "backgroundImage": {
+      "visible": false
+    },
+    "loadingGif": {
+      "visible": true,
+      "uri": "configs/loading/images/predefined_loading_1.gif",
+      "width": 58,
+      "height": 29
+    }
+  },
+  "wabVersion": "2.30",
+  "isTemplateApp": true,
+  "isWebTier": false,
+  "httpProxy": {
+    "useProxy": true,
+    "alwaysUseProxy": false,
+    "url": "",
+    "rules": []
+  },
+  "dataSource": {
+    "dataSources": {
+      "widget~widgets_Query_Widget_25~0": {
+        "id": "widget~widgets_Query_Widget_25~0",
+        "type": "Features",
+        "label": "per_capita_energy_use",
+        "dataSchema": {
+          "fields": [
+            {
+              "name": "Entity",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Entity",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 4000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Code",
+              "type": "esriFieldTypeString",
+              "actualType": "nvarchar",
+              "alias": "Code",
+              "sqlType": "sqlTypeNVarchar",
+              "length": 4000,
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Year",
+              "type": "esriFieldTypeInteger",
+              "actualType": "int",
+              "alias": "Year",
+              "sqlType": "sqlTypeInteger",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "Primary_energy_consumption_per_",
+              "type": "esriFieldTypeDouble",
+              "actualType": "float",
+              "alias": "Primary energy consumption per capita (kWh/person)",
+              "sqlType": "sqlTypeFloat",
+              "nullable": true,
+              "editable": true,
+              "domain": null,
+              "defaultValue": null
+            },
+            {
+              "name": "ObjectId",
+              "type": "esriFieldTypeOID",
+              "actualType": "int",
+              "alias": "ObjectId",
+              "sqlType": "sqlTypeInteger",
+              "nullable": false,
+              "editable": false,
+              "domain": null,
+              "defaultValue": null
+            }
+          ],
+          "displayField": "",
+          "objectIdField": {
+            "name": "ObjectId",
+            "type": "esriFieldTypeOID",
+            "actualType": "int",
+            "alias": "ObjectId",
+            "sqlType": "sqlTypeInteger",
+            "nullable": false,
+            "editable": false,
+            "domain": null,
+            "defaultValue": null
+          },
+          "typeIdField": ""
+        }
+      }
+    },
+    "settings": {}
+  },
+  "logoLink": "http://\"C:\\Users\\sonya\\Downloads\\NCE sources.jpeg\"",
+  "logoAlt": "Energy Sources"
+}

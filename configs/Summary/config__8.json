@@ -1,0 +1,28 @@
+{
+  "displayCluster": true,
+  "showFeatureCount": true,
+  "featureCountLabel": "Number of Plants",
+  "summaryLayer": {
+    "fields": [
+      {
+        "type": "MAX",
+        "label": "Max Output (MW)",
+        "field": "output_MW"
+      },
+      {
+        "type": "MIN",
+        "label": "Min Output (MW)",
+        "field": "output_MW"
+      },
+      {
+        "type": "AVG",
+        "label": "Avg Output (MW)",
+        "field": "output_MW"
+      }
+    ],
+    "id": "19901a508624494593f25caba4797483",
+    "name": "Power Plants by Energy Source",
+    "filterField": "output_MW",
+    "url": "19901a508624494593f25caba4797483"
+  }
+}

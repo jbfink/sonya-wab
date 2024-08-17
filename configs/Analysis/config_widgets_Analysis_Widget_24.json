@@ -1,0 +1,66 @@
+{
+  "analysisTools": [
+    {
+      "name": "AggregatePoints",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    },
+    {
+      "name": "CalculateDensity",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    },
+    {
+      "name": "DeriveNewLocations",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    },
+    {
+      "name": "ExtractData",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false
+    },
+    {
+      "name": "FindHotSpots",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    },
+    {
+      "name": "FindPointClusters",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    },
+    {
+      "name": "SummarizeWithin",
+      "showHelp": true,
+      "showCredits": true,
+      "showChooseExtent": true,
+      "showReadyToUseLayers": true,
+      "allowToExport": false,
+      "returnFeatureCollection": false
+    }
+  ]
+}
